@@ -1,0 +1,268 @@
+.image-1-icon {
+  position: absolute;
+  top: -35px;
+  left: -43px;
+  width: 1404px;
+  height: 789px;
+  object-fit: cover;
+}
+.frame-child {
+  position: absolute;
+  top: -5px;
+  left: -78px;
+  background-color: rgba(0, 0, 0, 0.67);
+  width: 1437px;
+  height: 730px;
+  z-index: 1;
+}
+.frame-icon {
+  position: absolute;
+  top: 6px;
+  left: 26px;
+  width: 66px;
+  height: 66px;
+  overflow: hidden;
+  z-index: 2;
+}
+.frame-icon1,
+.vector-icon {
+  position: absolute;
+  cursor: pointer;
+  z-index: 2;
+}
+.frame-icon1 {
+  top: 21px;
+  left: 1188px;
+  width: 45px;
+  height: 45px;
+  overflow: hidden;
+}
+.vector-icon {
+  top: 28px;
+  left: 1122px;
+  width: 30px;
+  height: 30px;
+}
+.image-1-parent {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.home {
+  text-decoration: underline;
+  position: relative;
+  font-weight: 500;
+  color: inherit;
+  display: inline-block;
+  min-width: 71px;
+  z-index: 2;
+}
+.home-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-base) 0 0;
+}
+.acerca-de,
+.destacados,
+.zapatillas {
+  text-decoration: none;
+  position: relative;
+  font-weight: 500;
+  color: inherit;
+  cursor: pointer;
+  z-index: 2;
+}
+.acerca-de {
+  white-space: nowrap;
+}
+.header {
+  margin: 0;
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  font-family: var(--font-outfit);
+}
+.zapashop-outlet {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  z-index: 2;
+}
+.frame-item {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+  border-top: 3px solid var(--color-white);
+  box-sizing: border-box;
+  max-width: 100%;
+  z-index: 3;
+}
+.shop-title,
+.shop-title-inner {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.shop-title-inner {
+  height: 3px;
+  flex-direction: row;
+  padding: 0 var(--padding-13xl) 0 30px;
+  box-sizing: border-box;
+}
+.shop-title {
+  flex-direction: column;
+}
+.camina-con-la {
+  position: relative;
+  font-weight: 500;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  z-index: 2;
+}
+.camina-con-la-mejor-de-las-ond-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-oswald);
+}
+.shop-title-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px;
+  max-width: 100%;
+}
+.button-content-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: var(--color-white);
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  z-index: 2;
+}
+.explora-ya {
+  position: absolute;
+  top: 15px;
+  left: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  z-index: 3;
+}
+.button-content {
+  height: 60px;
+  width: 183px;
+  position: relative;
+  white-space: nowrap;
+}
+.button-content-wrapper {
+  width: 677px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--font-size-5xl);
+  color: var(--color-gray-400);
+  font-family: var(--font-outfit);
+}
+.frame-parent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 37px;
+  max-width: 100%;
+}
+.content,
+.tv-13 {
+  display: flex;
+  box-sizing: border-box;
+}
+.content {
+  width: 735px;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-lg);
+  max-width: 100%;
+}
+.tv-13 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 28px var(--padding-234xl) 200px 211px;
+  gap: 213px;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  font-size: 96px;
+  color: var(--color-white);
+  font-family: var(--font-orelega-one);
+}
+@media screen and (max-width: 750px) {
+  .zapashop-outlet {
+    font-size: var(--font-size-29xl);
+  }
+  .frame-parent {
+    gap: 18px;
+  }
+}
+@media screen and (max-width: 675px) {
+  .header {
+    display: none;
+  }
+  .tv-13 {
+    gap: 106px;
+    padding-left: 105px;
+    padding-right: 126px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .zapashop-outlet {
+    font-size: var(--font-size-10xl);
+  }
+  .camina-con-la {
+    font-size: var(--font-size-lgi);
+  }
+  .tv-13 {
+    gap: 53px;
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

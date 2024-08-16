@@ -1,0 +1,424 @@
+.main-child {
+  height: 79px;
+  width: 1280px;
+  position: relative;
+  background-color: var(--color-darkslategray-100);
+  display: none;
+  max-width: 100%;
+}
+.frame-icon5,
+.home4 {
+  position: relative;
+  z-index: 2;
+}
+.frame-icon5 {
+  height: 66px;
+  width: 66px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.home4 {
+  text-decoration: none;
+  font-weight: 500;
+  color: inherit;
+  display: inline-block;
+  min-width: 71px;
+  cursor: pointer;
+}
+.home-frame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xs) 0 0;
+}
+.destacados4 {
+  text-decoration: none;
+  position: relative;
+  font-weight: 500;
+  color: inherit;
+  cursor: pointer;
+  z-index: 2;
+}
+.destacados-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xs) 0 0;
+}
+.zapatillas4 {
+  text-decoration: none;
+  position: relative;
+  font-weight: 500;
+  color: inherit;
+  cursor: pointer;
+  z-index: 2;
+}
+.zapatillas-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xs) 0 0;
+}
+.acerca-de4 {
+  text-decoration: underline;
+  position: relative;
+  font-weight: 500;
+  color: inherit;
+  white-space: nowrap;
+  z-index: 2;
+}
+.acerca-de-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xs) 0 0;
+}
+.vector-icon3 {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  cursor: pointer;
+  z-index: 2;
+}
+.vector-frame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-6xs);
+}
+.frame-icon6 {
+  height: 45px;
+  width: 45px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  cursor: pointer;
+  z-index: 2;
+}
+.content3,
+.elements {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-8xl);
+}
+.elements {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.elements-wrapper,
+.main1 {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.elements-wrapper {
+  width: 1006px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-7xs);
+}
+.main1 {
+  align-self: stretch;
+  background-color: var(--color-darkslategray-100);
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: var(--padding-7xs) var(--padding-28xl) var(--padding-6xs)
+    var(--padding-7xl);
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  gap: var(--gap-xl);
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  font-family: var(--font-outfit);
+}
+.entregas {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+  z-index: 1;
+}
+.en-nuestro-outlet,
+.tiempos-de-entrega {
+  margin: 0;
+}
+.principales-ciudades-del,
+.regin-metropolitana-de {
+  margin-bottom: 0;
+}
+.regin-metropolitana-de-buenos {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-xl);
+}
+.en-nuestro-outlet-container {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-mini);
+  font-weight: 500;
+  color: var(--color-black);
+  text-align: left;
+  z-index: 1;
+}
+.delivery-content,
+.delivery-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.delivery-content {
+  align-self: stretch;
+  gap: var(--gap-smi);
+}
+.delivery-info {
+  width: 318px;
+  padding: var(--padding-11xs) 0 0;
+  box-sizing: border-box;
+}
+.devoluciones {
+  margin: 0;
+  width: 283px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  z-index: 1;
+}
+.condiciones-de-devolucin,
+.si-por-alguna {
+  margin: 0;
+}
+.las-zapatillas-deben,
+.se-requiere-la,
+.tienes-hasta-30 {
+  margin-bottom: 0;
+}
+.tienes-hasta-30-das-desde-la {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-xl);
+}
+.proceso-de-devolucin {
+  margin: 0;
+}
+.contacta-a-nuestro,
+.empaqueta-las-zapatillas {
+  margin-bottom: 0;
+}
+.contacta-a-nuestro-equipo-de-a {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-xl);
+}
+.si-por-alguna-container {
+  flex: 1;
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.returns-description,
+.returns-info,
+.returns-info-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.returns-description {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-sm);
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--color-black);
+}
+.returns-info,
+.returns-info-wrapper {
+  flex-direction: column;
+  max-width: 100%;
+}
+.returns-info {
+  width: 332px;
+  gap: 2px;
+}
+.returns-info-wrapper {
+  flex: 1;
+  padding: var(--padding-11xs) 0 0;
+  box-sizing: border-box;
+  min-width: 249px;
+}
+.opciones-de-pago {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+  z-index: 1;
+}
+.en-nuestro-outlet1 {
+  margin: 0;
+}
+.tarjetas-de-crdito,
+.tarjetas-de-dbito {
+  margin-bottom: 0;
+}
+.tarjetas-de-crdito-aceptamos {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-xl);
+}
+.en-nuestro-outlet-container1 {
+  flex: 1;
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.payment-description {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-2xs) 0 33px;
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--color-black);
+}
+.delivery-info-parent,
+.information,
+.opciones-de-pago-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.opciones-de-pago-parent {
+  width: 362px;
+  flex-direction: column;
+  gap: var(--gap-mini);
+}
+.delivery-info-parent,
+.information {
+  flex-direction: row;
+}
+.delivery-info-parent {
+  flex: 1;
+  flex-wrap: wrap;
+  gap: 33px;
+}
+.information {
+  width: 1193px;
+  padding: 0 var(--padding-13xl);
+  box-sizing: border-box;
+}
+.image-5-icon {
+  position: absolute;
+  top: 0;
+  left: -487px;
+  width: 2108px;
+  height: 743px;
+  object-fit: cover;
+}
+.frame-icon7,
+.frame-icon8,
+.frame-icon9 {
+  position: absolute;
+  top: 59px;
+  left: 238px;
+  width: 70px;
+  height: 70px;
+  overflow: hidden;
+  z-index: 1;
+}
+.frame-icon8,
+.frame-icon9 {
+  top: 58px;
+  left: 665px;
+  z-index: 2;
+}
+.frame-icon9 {
+  top: 56px;
+  left: 1176px;
+  z-index: 1;
+}
+.image-block {
+  width: 100%;
+  height: 641px;
+  position: absolute;
+  margin: 0 !important;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.tv-11 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-73xl);
+  box-sizing: border-box;
+  gap: 56px;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  font-size: var(--font-size-29xl);
+  color: var(--color-gray-500);
+  font-family: var(--font-oswald);
+}
+@media screen and (max-width: 1050px) {
+  .elements {
+    display: none;
+  }
+  .elements-wrapper {
+    width: 0;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .devoluciones,
+  .entregas,
+  .opciones-de-pago {
+    font-size: var(--font-size-19xl);
+  }
+}
+@media screen and (max-width: 725px) {
+  .main1 {
+    padding-right: var(--padding-4xl);
+    box-sizing: border-box;
+  }
+  .delivery-info-parent {
+    gap: var(--gap-base);
+  }
+  .tv-11 {
+    gap: 28px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .devoluciones,
+  .entregas,
+  .opciones-de-pago {
+    font-size: var(--font-size-10xl);
+  }
+}

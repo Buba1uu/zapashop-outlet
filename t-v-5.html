@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./t-v-5.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Orelega One:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;500&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Padauk:wght@400;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700;800&display=swap"
+    />
+  </head>
+  <body>
+    <div class="tv-5">
+      <header class="navigation1">
+        <div class="navigation-child"></div>
+        <div class="content4">
+          <img
+            class="frame-icon10"
+            loading="lazy"
+            alt=""
+            src="./public/frame-1.svg"
+          />
+        </div>
+        <div class="menu-links">
+          <a class="home5" id="hOMEText">HOME</a>
+        </div>
+        <div class="menu-links1">
+          <a class="destacados5" id="dESTACADOSText">DESTACADOS</a>
+        </div>
+        <div class="menu-links2">
+          <a class="zapatillas5" id="zAPATILLASText">ZAPATILLAS</a>
+        </div>
+        <div class="side-panel">
+          <a class="acerca-de5" id="aCERCADEText">ACERCA DE</a>
+        </div>
+        <div class="frame-wrapper2">
+          <img
+            class="frame-icon11"
+            loading="lazy"
+            alt=""
+            src="./public/frame-11.svg"
+          />
+        </div>
+      </header>
+      <div class="image-container">
+        <img class="z-1-icon" loading="lazy" alt="" src="./public/z-1@2x.png" />
+
+        <img class="zz-1-icon" alt="" src="./public/zz-1@2x.png" />
+      </div>
+      <main class="frame-parent5">
+        <div class="zapatillas-image-wrapper">
+          <div class="zapatillas-image">
+            <img class="zapas-1-icon" alt="" src="./public/zapas-1@2x.png" />
+
+            <img
+              class="shoe-icon"
+              loading="lazy"
+              alt=""
+              src="./public/vector.svg"
+              id="shoeIcon"
+            />
+          </div>
+        </div>
+        <section class="frame-wrapper3">
+          <div class="rectangle-parent2">
+            <div class="frame-child6"></div>
+            <div class="register-option">
+              <div class="account-question">
+                <h2 class="inicia-sesin">INICIA SESIÓN</h2>
+              </div>
+              <input class="password-field" placeholder="E-mail" type="text" />
+            </div>
+            <div class="password-input">
+              <div class="login-button">
+                <div class="login-button-child"></div>
+                <input class="contrasea" placeholder="Contraseña" type="text" />
+              </div>
+            </div>
+            <div class="login-options">
+              <div class="sign-up-link">
+                <div class="register-link">
+                  <div class="button-background" id="buttonBackground"></div>
+                  <div class="iniciar-sesin" id="iniciarSesinText">
+                    Iniciar sesión
+                  </div>
+                </div>
+                <div class="login-form">
+                  <div class="no-tenes-una-container" id="noTenesUna">
+                    <span>¿No tenes una cuenta? </span>
+                    <span class="registrate">Registrate</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script>
+      var hOMEText = document.getElementById("hOMEText");
+      if (hOMEText) {
+        hOMEText.addEventListener("click", function (e) {
+          window.location.href = "./t-v.html";
+        });
+      }
+      
+      var dESTACADOSText = document.getElementById("dESTACADOSText");
+      if (dESTACADOSText) {
+        dESTACADOSText.addEventListener("click", function (e) {
+          window.location.href = "./t-v-7.html";
+        });
+      }
+      
+      var zAPATILLASText = document.getElementById("zAPATILLASText");
+      if (zAPATILLASText) {
+        zAPATILLASText.addEventListener("click", function (e) {
+          window.location.href = "./t-v-8.html";
+        });
+      }
+      
+      var aCERCADEText = document.getElementById("aCERCADEText");
+      if (aCERCADEText) {
+        aCERCADEText.addEventListener("click", function (e) {
+          window.location.href = "./t-v-11.html";
+        });
+      }
+      
+      var shoeIcon = document.getElementById("shoeIcon");
+      if (shoeIcon) {
+        shoeIcon.addEventListener("click", function (e) {
+          window.location.href = "./t-v-10.html";
+        });
+      }
+      
+      var buttonBackground = document.getElementById("buttonBackground");
+      if (buttonBackground) {
+        buttonBackground.addEventListener("click", function (e) {
+          window.location.href = "./t-v.html";
+        });
+      }
+      
+      var iniciarSesinText = document.getElementById("iniciarSesinText");
+      if (iniciarSesinText) {
+        iniciarSesinText.addEventListener("click", function (e) {
+          window.location.href = "./t-v.html";
+        });
+      }
+      
+      var noTenesUna = document.getElementById("noTenesUna");
+      if (noTenesUna) {
+        noTenesUna.addEventListener("click", function (e) {
+          window.location.href = "./t-v-6.html";
+        });
+      }
+      </script>
+  </body>
+</html>
